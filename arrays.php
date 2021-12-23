@@ -36,7 +36,7 @@
 
 	//Combine both IDs
 	echo "<h3> Combine both Associative Arrays </h3>";
-	echo $people[$ids[33]];
+	echo $ids[33];
 
 
 ?>
