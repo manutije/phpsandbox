@@ -18,7 +18,7 @@
 	$ids[] = 44;
 
 	//With this funciton, you can print all the elements of the array
-	echo <h3> Printing all the values</h3>;
+	echo "<h3> Printing all the values</h3>";
 	print_r($ids);
 
 	//=================================================================
@@ -27,7 +27,7 @@
 	$people = array('Manuel' => 23, 'Tomas' =>22, 'Maria'=>19);
 	
 	//In the example above, Manuel is the key, and 23 is the value.
-	echo <h3> printing the value of key Manuel</h3>;
+	echo "<h3> printing the value of key Manuel</h3>";
 	echo $people['Manuel']
 
 
