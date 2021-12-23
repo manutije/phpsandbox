@@ -38,5 +38,12 @@
 	echo "<h3> Combine both Associative Arrays </h3>";
 	echo $people[$ids[33]];
 
+	//Add element to people array
+	$people['Gonzalo']=62;
+
+	//Echo all elements of the people array
+	echo "<h3> All the elements of \$people array </h3>";
+	print_r($people);
+
 
 ?>
