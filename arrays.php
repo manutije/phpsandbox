@@ -21,7 +21,12 @@
 	print_r($ids);
 
 	//=================================================================
-	//Associative
-
 	
+	//Associative Arrays
+	$people = array('Manuel' => 23, 'Tomas' =>22, 'Maria'=>19);
+	
+	//In the example above, Manuel is the key, and 23 is the value.
+	echo $people['Manuel']
+
+
 ?>
