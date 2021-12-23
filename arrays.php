@@ -29,14 +29,14 @@
 	
 	//In the example above, Manuel is the key, and 23 is the value.
 	echo "<h3> printing the value of key Manuel</h3>";
-	echo $people['Manuel']
+	echo $people['Manuel'];
 
 	//Array of IDS
-	$ids = [11=>'Manuel',22=>'Tomas',33=>'Maria'];
+	$ids = [11 => 'Manuel' ,22 => 'Tomas',33 => 'Maria'];
 
 	//Combine both IDs
 	echo "<h3> Combine both Associative Arrays </h3>";
-	echo $ids[33];
+	echo $people[$ids[33]];
 
 
 ?>
