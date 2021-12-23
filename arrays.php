@@ -12,7 +12,8 @@
 	$people =  array('Gonzalo', 'Manuel', 'Tomas');
 	$ids =[11,22,33];
 	// You can use echo to print an element of an array
-	//echo $ids[2];
+	echo "<h3> Printing the value of people array with index 1</h3>"
+	echo $people[2];
 
 	//You can add an element to an array by using blank brackets
 	$ids[] = 44;
