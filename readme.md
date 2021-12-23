@@ -7,7 +7,7 @@
     <th>About</th>
   </tr>
   <tr>
-    <td>array.php</td>
+    <td>arrays.php</td>
     <td>This file has examples of arrays in php</td>
   </tr>
 </table>
