@@ -52,11 +52,11 @@
 
     $timestamp4 =strtotime('next tuesday');
     echo "<h5> Impresion TimeStamp 4 (Proximo martes)</h5>";
-    echo date('d/m/Y h:i:s a',$timestamp3);
+    echo date('d/m/Y h:i:s a',$timestamp4);
 
     $timestamp5 =strtotime('+2 Months');
     echo "<h5> Impresion TimeStamp 5 (En dos meses)</h5>";
-    echo date('d/m/Y h:i:s a',$timestamp3);
+    echo date('d/m/Y h:i:s a',$timestamp5);
 
     //=================================================================
 
