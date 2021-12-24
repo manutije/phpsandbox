@@ -15,9 +15,9 @@
         <h1>Server & File Info</h1>
         <?php if($server): ?>
             <ul class="list-group">
-               <?php foreach($server as $value): ?>
-                   # code...
+               <?php foreach($server as $key => $value): ?>
                     <li class="list-group-item">
+                        <strong><?php echo $key; >?:</strong>
                         <?php echo $value; ?>
                     </li>
                 <?php endforeach; ?>
