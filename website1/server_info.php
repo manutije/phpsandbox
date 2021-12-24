@@ -3,13 +3,13 @@
 
     //Create Server Array
     $server =[
-        'Server_Name' => $_SERVER['SERVER_NAME'],
-        'Host_Header' => $_SERVER['HTTP_HOST'],
-        'Server_Software' => $_SERVER['SERVER_SOFTWARE'],
-        'Document_Root' => $_SERVER['DOCUMENT_ROOT'],
-        'Current_Page' => $_SERVER['PHP_SELF'],
-        'Script_Name' => $_SERVER['SCRIPT_NAME'],
-        'Absolute_Path' => $_SERVER['SCRIPT_FILENAME']
+        'Server Name' => $_SERVER['SERVER_NAME'],
+        'Host Header' => $_SERVER['HTTP_HOST'],
+        'Server Software' => $_SERVER['SERVER_SOFTWARE'],
+        'Document Root' => $_SERVER['DOCUMENT_ROOT'],
+        'Current Page' => $_SERVER['PHP_SELF'],
+        'Script Name' => $_SERVER['SCRIPT_NAME'],
+        'Absolute Path' => $_SERVER['SCRIPT_FILENAME']
     ];
     //Create Client Array
     $client =[
