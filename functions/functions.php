@@ -36,4 +36,14 @@
     //Run function without a name
     sayHello();
 
+    //Return function Example
+    function addNumbers($num1,$num2){
+        $total = $num1 + $num2;
+        return $total;
+    }
+
+    //Run and print result
+    echo "<h5> Example of return function</h5>";
+    echo addNumbers(10,5);
+
 ?>
