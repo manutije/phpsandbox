@@ -20,7 +20,12 @@
     //Create function with arguments
     //default option if not argument in the call
     function sayHello($name = 'Default'){
-        echo "<h5> Example of complex function</h5>";
+        if($name == 'Default'){
+            echo "<h5> Example of complex function with default</h5>";
+        }
+        else{
+            echo "<h5> Example of complex function with name</h5>";
+        }
         echo 'Hello'.' '.$name;
         echo "<br>";
     }
