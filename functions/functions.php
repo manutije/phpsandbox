@@ -45,5 +45,22 @@
     //Run and print result
     echo "<h5> Example of return function</h5>";
     echo addNumbers(10,5);
+    echo "<br>";
+
+    //Pasing Arguments by reference
+    $myNum = 10;
+
+    function addFive(&$num){
+        $num +=5;
+    }
+
+    //Run and print result
+    echo "<h5> Example of Passing Arguments by reference function</h5>";
+    echo "Before: $myNum";
+    echo "<br>";
+    addFive($myNum);
+    echo "After: $myNum";
+    echo "<br>";
+
 
 ?>
