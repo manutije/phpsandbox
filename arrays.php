@@ -5,7 +5,6 @@
 		-Associative
 		-Multi-dimensional
 	*/
-
 	//=================================================================
 	//Indexed
 
@@ -62,6 +61,4 @@
 	echo $cars[1][1];
 	echo"<h3>Printing the number of sold cars</h3>";
 	echo $cars[1][2];
-
-
 ?>
