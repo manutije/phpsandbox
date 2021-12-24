@@ -9,18 +9,26 @@
 
     //Create Simple Function
     function simpleFunction(){
+        echo "<h5> Example of simple function</h5>";
         echo 'Hello World';
+        echo "<br>";
     }
 
     //Run simple function
     simpleFunction();
 
     //Create function with arguments
-    function sayHello($name){
+    //default option if not argument in the call
+    function sayHello($name = 'Default'){
+        echo "<h5> Example of complex function</h5>";
         echo 'Hello'.' '.$name;
+        echo "<br>";
     }
 
     //Run function with a name
     sayHello('Manuel');
+    
+    //Run function without a name
+    sayHello();
 
 ?>
