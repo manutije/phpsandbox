@@ -1,8 +1,5 @@
 <?php 
     include './server_info.php';
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,15 +14,6 @@
     <div class="container">
         <h1>Server & File Info</h1>
         <?php if($server): ?>
-            <ul class="list-group">
-               <?php foreach ($server as $key => $value): ?>
-                   # code...
-                    <li class="list-group-item">
-                        <strong><?php echo $key; >?:</strong>
-                        <?php echo $value; ?>
-                    </li>
-                <?php endforeach; ?>
-            </ul>
         <?php endif; ?>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
