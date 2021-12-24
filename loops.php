@@ -40,4 +40,16 @@ while($contador < 5){
     echo "El valor del contador es: $contador <hr>";
     $contador++;
 }
+
+//=====================================================================
+//DO WHILE
+
+$contador = 0;
+
+echo "<h3> Ejemplo de Do While </h3>";
+do {
+    # code...
+    echo "El valor del contador es: $contador <hr>";
+    $contador++;
+} while ($contador < 5);
 ?>
