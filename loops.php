@@ -37,7 +37,7 @@ $contador = 0;
 
 echo "<h3> Ejemplo de while</h3>";
 while($contador < 5){
-    echo "El valor del contador es: $contador";
+    echo "El valor del contador es: $contador <hr>";
     $contador++;
 }
 ?>
