@@ -3,11 +3,19 @@
 
 <table>
   <tr>
-    <th>File</th>
+    <th>Folder</th>
     <th>About</th>
   </tr>
   <tr>
-    <td>arrays.php</td>
+    <td>arrays</td>
     <td>This file has examples of arrays in php</td>
+  </tr>
+  <tr>
+    <td>functions</td>
+    <td>This file has examples of functions in php</td>
+  </tr>
+  <tr>
+    <td>loops</td>
+    <td>This file has examples of loops in php</td>
   </tr>
 </table>
