@@ -21,7 +21,7 @@
                 <?php endforeach; ?>
             </ul>
         <?php endif; ?>
-
+        <hr>
         <h1>Client Info</h1>
         <?php if($client): ?>
             <ul class="list-group">
