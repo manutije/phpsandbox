@@ -7,9 +7,20 @@
         Pascal Case - MyFunction() Usually for classes
     */
 
+    //Create Simple Function
     function simpleFunction(){
         echo 'Hello World';
     }
 
+    //Run simple function
     simpleFunction();
+
+    //Create function with arguments
+    function sayHello($name){
+        echo 'Hello'.' '.$name;
+    }
+
+    //Run function with a name
+    sayHello('Manuel');
+
 ?>
