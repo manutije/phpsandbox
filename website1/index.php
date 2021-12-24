@@ -15,11 +15,13 @@
         <h1>Server & File Info</h1>
         <?php if($server): ?>
             <ul class="list-group">
-               <?php foreach ($server as $key => $value){
-                   echo "<li class="list-group-item">";
-                   echo "<strong>$key:</strong>";
-                   echo " $value </li>";
-               } ?>
+               <?php foreach($server as $key => $value): ?>
+                   # code...
+                    <li class="list-group-item">
+                        <strong><?php echo $key; >?:</strong>
+                        <?php echo $value; ?>
+                    </li>
+                <?php endforeach; ?>
             </ul>
         <?php endif; ?>
     </div>
