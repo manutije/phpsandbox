@@ -30,7 +30,7 @@
     //Set Timezone
     date_default_timezone_set('America/Mexico_City');
 
-    echo "<h5> Impresion hora formato 1 </h5>";
+    echo "<h5> Impresion hora en Mexico </h5>";
     echo date('h:i:s a');
 
     //=================================================================
@@ -39,24 +39,24 @@
     //Create a timestamp (Horas,minutos,segundos, mes, dia, anio)
     $timestamp = mktime(12,5,0,4,21,1998);
     echo "<h5> Impresion TimeStamp 1</h5>";
-    echo date('d/m/a h:i:s a',$timestamp);
+    echo date('d/m/Y h:i:s a',$timestamp);
 
     //Create a timestamp from a string
     $timestamp2 =strtotime('3:00am December 23 2021');
     echo "<h5> Impresion TimeStamp 2</h5>";
-    echo date('d/m/a h:i:s a',$timestamp2);
+    echo date('d/m/Y h:i:s a',$timestamp2);
 
     $timestamp3 =strtotime('tomorrow');
     echo "<h5> Impresion TimeStamp 3</h5>";
-    echo date('d/m/a h:i:s a',$timestamp3);
+    echo date('d/m/Y h:i:s a',$timestamp3);
 
     $timestamp4 =strtotime('next tuesday');
     echo "<h5> Impresion TimeStamp 4</h5>";
-    echo date('d/m/a h:i:s a',$timestamp3);
+    echo date('d/m/Y h:i:s a',$timestamp3);
 
     $timestamp5 =strtotime('+2 Months');
     echo "<h5> Impresion TimeStamp 5</h5>";
-    echo date('d/m/a h:i:s a',$timestamp3);
+    echo date('d/m/Y h:i:s a',$timestamp3);
 
     //=================================================================
 
