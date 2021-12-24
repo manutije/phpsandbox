@@ -5,7 +5,7 @@
 //=====================================================================
 //CASE
 
-$variable = 'opcion1'
+$variable = 'opcion1';
 
 echo "<h3> Resultado del ejemplo de case</h3>";
 switch ($variable) {
