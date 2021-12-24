@@ -16,6 +16,6 @@
     $client =[
        'Client_System_Info' => $_SERVER['HTTP_USER_AGENT'],
        'Client_IP' => $_SERVER['REMOTE_ADDR'], 
-       'Client_Port' => $_SERVER['REMOTE_PORT'],  
+       'Client_Port' => $_SERVER['REMOTE_PORT']  
     ];
 ?>
