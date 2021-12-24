@@ -13,8 +13,8 @@
     ];
     //Create Client Array
     $client =[
-       'Client_System_Info' => $_SERVER['HTTP_USER_AGENT'],
-       'Client_IP' => $_SERVER['REMOTE_ADDR'], 
-       'Client_Port' => $_SERVER['REMOTE_PORT']  
+       'Client System Info' => $_SERVER['HTTP_USER_AGENT'],
+       'Client IP' => $_SERVER['REMOTE_ADDR'], 
+       'Client Port' => $_SERVER['REMOTE_PORT']  
     ];
 ?>
