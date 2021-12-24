@@ -61,4 +61,14 @@ for ($i=0; $i < 5; $i++) {
     # code...
     echo "El valor de i es: $i <hr>";
 }
+
+//=====================================================================
+//FOR EACH
+
+echo "<h3> Ejemplo de For Each</h3>";
+$familia = array('Manuel','Tomas','Maria','Gonzalo','Isabel');
+foreach ($familia as $miembro) {
+    # code...
+    echo "$miembro <hr>";
+}
 ?>
