@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Server & File Info</h1>
+        <h1>Server Info</h1>
         <?php if($server): ?>
             <ul class="list-group">
                <?php foreach($server as $key => $value): ?>
