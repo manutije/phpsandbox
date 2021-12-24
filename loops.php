@@ -52,4 +52,13 @@ do {
     echo "El valor del contador es: $contador <hr>";
     $contador++;
 } while ($contador < 5);
+
+//=====================================================================
+//FOR
+
+echo "<h3> Ejemplo de For</h3>";
+for ($i=0; $i < 5; $i++) { 
+    # code...
+    echo "El valor de i es: $i <hr>";
+}
 ?>
