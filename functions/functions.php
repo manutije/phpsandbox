@@ -7,7 +7,9 @@
         Pascal Case - MyFunction() Usually for classes
     */
 
+    //=================================================================
     //Create Simple Function
+
     function simpleFunction(){
         echo "<h5> Example of simple function</h5>";
         echo 'Hello World';
@@ -17,7 +19,9 @@
     //Run simple function
     simpleFunction();
 
+    //=================================================================
     //Create function with arguments
+
     //default option if not argument in the call
     function sayHello($name = 'Default'){
         if($name == 'Default'){
@@ -36,7 +40,9 @@
     //Run function without a name
     sayHello();
 
+    //=================================================================
     //Return function Example
+
     function addNumbers($num1,$num2){
         $total = $num1 + $num2;
         return $total;
@@ -47,7 +53,9 @@
     echo addNumbers(10,5);
     echo "<br>";
 
+    //=================================================================
     //Pasing Arguments by reference
+
     $myNum = 10;
 
     function addFive(&$num){
@@ -62,5 +70,6 @@
     echo "After: $myNum";
     echo "<br>";
 
+    //=================================================================
 
 ?>
