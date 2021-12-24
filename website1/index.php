@@ -1,6 +1,4 @@
-<?php 
-    include './server_info.php';
-?>
+<?php include './server_info.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +15,7 @@
             <ul class="list-group">
                <?php foreach($server as $key => $value): ?>
                     <li class="list-group-item">
-                        <strong><?php echo $key; >?:</strong>
+                        <strong><?php echo $key; ?>:</strong>
                         <?php echo $value; ?>
                     </li>
                 <?php endforeach; ?>
