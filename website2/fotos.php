@@ -1,4 +1,5 @@
 <?php
     $directory   = './uploads';
-    $scanned_directory = array_diff(scandir($directory), array('..', '.'));
+    $files = array_diff(scandir($directory), array('..', '.'));
+    print_r($files);
 ?>
