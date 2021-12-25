@@ -32,8 +32,8 @@
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
             <div class="btn-group me-2" role="group" aria-label="First group">
                 <?php
-                    $contador_botones = 0;
-                    while($contador_botones < $pages){
+                    $contador_botones = 1;
+                    while($contador_botones <= $pages){
                         echo '<button type="button" class="btn btn-primary">'.$contador_botones.'</button>';
                         $contador_botones = $contador_botones +1;
                     }
