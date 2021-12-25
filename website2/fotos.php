@@ -20,7 +20,7 @@
     $size = sizeof($files)-2;
 
     while($contador_prim < $size){
-        while($contador_terc < 9 and $contador_prim < $size){
+        while($contador_terc < 6 and $contador_prim < $size){
             $temp[$contador_terc]= $files[$contador_prim];
             $contador_prim = $contador_prim +1;
             $contador_terc = $contador_terc +1;
