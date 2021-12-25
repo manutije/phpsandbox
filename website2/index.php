@@ -18,7 +18,7 @@
     <title>MTL Gallery</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container text-center">
         <h1>Galeria</h1>
         <?php if($pages_file): ?>
             <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -37,6 +37,7 @@
         <?php endif; ?>
         <br>
         <br>
+        <span>Pages</span>
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
             <div class="btn-group me-2" role="group" aria-label="First group">
                 <?php
