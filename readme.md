@@ -26,4 +26,8 @@
     <td>website1</td>
     <td>This file has examples $_SERVER and superglobal </td>
   </tr>
+  <tr>
+    <td>website2</td>
+    <td>This file is a Web Gallery Example </td>
+  </tr>
 </table>
