@@ -33,9 +33,11 @@
             <div class="btn-group me-2" role="group" aria-label="First group">
                 <?php
                     $contador_botones = 1;
+                    $contador_paginas = 0;
                     while($contador_botones <= $pages){
-                        echo '<a href="#" class="btn btn-primary">'.$contador_botones.'</a>';
+                        echo '<a href="./index.php?page='.$contador_paginas.'" class="btn btn-primary">'.$contador_botones.'</a>';
                         $contador_botones = $contador_botones +1;
+                        $contador_paginas = $contador_paginas +1;
                     }
                 ?>
             </div>
