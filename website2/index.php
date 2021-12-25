@@ -34,7 +34,7 @@
                 <?php
                     $contador_botones = 0;
                     while($contador_botones < $pages){
-                        echo '<button type="button" class="btn btn-primary">'.$contador_botones +1.'</button>';
+                        echo '<button type="button" class="btn btn-primary">'.$contador_botones.'</button>';
                         $contador_botones = $contador_botones +1;
                     }
                 ?>
