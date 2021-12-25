@@ -14,7 +14,7 @@
         <h1>Galeria</h1>
         <?php if($pages_file): ?>
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <?php foreach($pages_file[0] as $value): ?>
+                <?php foreach($pages_file[2] as $value): ?>
                     <div class="col">
                         <div class="card h-100">
                             <img src="./uploads/<?php echo $value; ?>" class="card-img-top" alt="...">
@@ -27,6 +27,14 @@
                 <?php endforeach; ?>
             </div>
         <?php endif; ?>
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2" role="group" aria-label="First group">
+                <button type="button" class="btn btn-primary">1</button>
+                <button type="button" class="btn btn-primary">2</button>
+                <button type="button" class="btn btn-primary">3</button>
+                <button type="button" class="btn btn-primary">4</button>
+            </div>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
