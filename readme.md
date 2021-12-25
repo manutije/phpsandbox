@@ -22,4 +22,8 @@
     <td>loops</td>
     <td>This file has examples of loops in php</td>
   </tr>
+  <tr>
+    <td>website1</td>
+    <td>This file has examples $_SERVER and superglobal </td>
+  </tr>
 </table>
