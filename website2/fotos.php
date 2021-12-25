@@ -22,18 +22,20 @@
 
     echo $size;
     
-    while ($contador_prim < $size){
-        while($contador_terc < 10){
+    while($contador_prim < $size){
+        while($contador_terc < 9 and $contador_prim < $size){
             /*
             $temp[$contador_terc]= $files[$contador_prim];
             */
-            echo "Folder: $contador_secu | Picture: $contador_prim"
+            echo "Folder: $contador_secu | Picture: $contador_prim";
+            echo "<br>";
             $contador_prim = $contador_prim +1;
             $contador_terc = $contador_terc +1;
         }
         /*
         $pages_file[$contador_secu]=$temp
         */
+        echo "<hr>";
         $contador_secu = $contador_secu +1;
         $contador_terc = 0;
         /*
