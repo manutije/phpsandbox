@@ -29,5 +29,8 @@
         $contador_secu = $contador_secu +1;
         $contador_terc = 0;
         $temp = array();
-    }  
+    }
+    $pages = sizeof($pages_file);
+
+    echo $pages;
 ?>
