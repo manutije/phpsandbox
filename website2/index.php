@@ -44,9 +44,15 @@
                     $contador_botones = 1;
                     $contador_paginas = 0;
                     while($contador_botones <= $pages){
-                        echo '<a href="./index.php?page='.$contador_paginas.'" class="btn btn-primary">'.$contador_botones.'</a>';
-                        $contador_botones = $contador_botones +1;
-                        $contador_paginas = $contador_paginas +1;
+                        if($folder == $contador_paginas){
+                            echo '<a href="./index.php?page='.$contador_paginas.'" class="btn btn-dark">Aqui estas</a>';
+                            $contador_botones = $contador_botones +1;
+                            $contador_paginas = $contador_paginas +1;
+                        }else{
+                            echo '<a href="./index.php?page='.$contador_paginas.'" class="btn btn-primary">'.$contador_botones.'</a>';
+                            $contador_botones = $contador_botones +1;
+                            $contador_paginas = $contador_paginas +1;
+                        }
                     }
                 ?>
             </div>
