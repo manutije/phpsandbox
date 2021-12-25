@@ -36,8 +36,10 @@
         */
         $contador_secu = $contador_secu +1;
         $contador_terc = 0;
+        /*
         $temp = array();
+        */
     }
-    print_r($pages_file);
+    //print_r($pages_file);
     
 ?>
