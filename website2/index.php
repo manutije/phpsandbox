@@ -12,9 +12,9 @@
 <body>
     <div class="container">
         <h1>Galeria</h1>
-        <?php if($files): ?>
+        <?php if($pages_file): ?>
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <?php foreach($files as $key => $value): ?>
+                <?php foreach($pages_file[0] as $value): ?>
                     <div class="col">
                         <div class="card h-100">
                             <img src="./uploads/<?php echo $value; ?>" class="card-img-top" alt="...">
