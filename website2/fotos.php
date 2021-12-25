@@ -18,6 +18,7 @@
 
 
     echo $size;
+    /*
     while ($contador_prim < $size){
         while($contador_prim < 10){
             $temp[]= $files[$contador_prim];
@@ -28,4 +29,5 @@
         $temp = array();
     }
     print_r($pages_file);
+    */
 ?>
