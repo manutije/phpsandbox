@@ -31,6 +31,4 @@
         $temp = array();
     }
     $pages = sizeof($pages_file);
-
-    echo $pages;
 ?>

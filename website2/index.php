@@ -31,9 +31,13 @@
         <br>
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
             <div class="btn-group me-2" role="group" aria-label="First group">
-                <?php foreach($page_file as $key=> $value): ?>
-                    <button type="button" class="btn btn-primary">$key +1</button>
-                <?php endforeach; ?>
+                <?php
+                    $contador_botones = 0;
+                    while($contador_botones < $pages){
+                        echo '<button type="button" class="btn btn-primary">$contador_botones +1</button>';
+                        $contador_botones = $contador_botones +1;
+                    }
+                ?>
             </div>
         </div>
     </div>
