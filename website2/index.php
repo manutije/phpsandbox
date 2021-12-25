@@ -1,4 +1,12 @@
-<?php include './fotos.php'; ?>
+<?php 
+    include './fotos.php'; 
+    if(isset($_GET['page'])){
+        $folder = $_GET['page'];
+    }
+    else{
+        $folder = 0;
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +22,7 @@
         <h1>Galeria</h1>
         <?php if($pages_file): ?>
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <?php foreach($pages_file[2] as $value): ?>
+                <?php foreach($pages_file[$folder] as $value): ?>
                     <div class="col">
                         <div class="card h-100">
                             <img src="./uploads/<?php echo $value; ?>" class="card-img-top" alt="...">
