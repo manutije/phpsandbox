@@ -4,7 +4,7 @@
     $files = array_diff(scandir($directory), array('..', '.'));
 
     //Contador primario de 0 a 128
-    $contador_prim = 0;
+    $contador_prim = 2;
 
     //Contador secundario de 0 a x
     $contador_secu = 0;
@@ -17,7 +17,7 @@
     $temp = [];
 
     //Tamano de variable files
-    $size = sizeof($files);
+    $size = sizeof($files)-2;
 
 
     echo $size;
