@@ -6,8 +6,11 @@
     //Contador primario de 0 a 128
     $contador_prim = 0;
 
-    //Contador secundario de 0 a 9
+    //Contador secundario de 0 a x
     $contador_secu = 0;
+
+    //Contador tercerario de 0  a 9
+    $contador_terc = 0;
 
     //Arreglo de paginas y temporal
     $pages_file = [];
@@ -18,16 +21,18 @@
 
 
     echo $size;
-    /*
+    
     while ($contador_prim < $size){
-        while($contador_prim < 10){
-            $temp[]= $files[$contador_prim];
-            $contador_prim ++;
+        while($contador_terc < 10){
+            $temp[$contador_terc]= $files[$contador_prim];
+            $contador_prim = $contador_prim +1;
+            $contador_terc = $contador_terc +1;
         }
         $pages_file[$contador_secu]=$temp
-        $contador_secu ++;
+        $contador_secu = $contador_secu +1;
+        $contador_terc = 0;
         $temp = array();
     }
     print_r($pages_file);
-    */
+    
 ?>
