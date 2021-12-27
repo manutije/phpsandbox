@@ -14,7 +14,7 @@
         <h1 class="text-center">Administracion Rancho</h1>
         <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link text-warning" href="./index.php?page=caballos">Caballos</a>
+                <a class="nav-link" href="./index.php?page=caballos">Caballos</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="./index.php?page=vacasb">Vacas Bravas</a>
@@ -29,7 +29,6 @@
         <br>
         <hr>
         <?php 
-            include './fotos.php'; 
             if(isset($_GET['page'])){
                 $page = $_GET['page'];
             }
