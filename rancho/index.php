@@ -36,10 +36,10 @@
                 $page = 0;
             }
             if($page != 0){
-                include "./$page.php"
+                include "./$page.php";
             }
             else{
-                <h3>Selecciona una opcion</h3>
+                echo "<h3>Selecciona una opcion</h3>";
             }
         ?>
     </div>
