@@ -8,6 +8,8 @@
     <title>Rancho</title>
 </head>
 <body>
+    <br>
+    <br>
     <div class="container">
         <h1 class="text-center">Administracion Rancho</h1>
         <ul class="nav justify-content-center">
