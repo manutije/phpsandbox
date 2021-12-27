@@ -36,7 +36,9 @@
                 $page = 0;
             }
             if($page != 0){
-                include "./$page.php";
+                $direction = './'.$page.'.php';
+                echo "<h3 class='text-center'>Opcion Seleccionada: $direction</h3>";
+                include $direction;
             }
             else{
                 echo "<h3 class='text-center'>Selecciona una opcion $page</h3>";
