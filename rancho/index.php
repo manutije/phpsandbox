@@ -33,9 +33,9 @@
                 $page = $_GET['page'];
             }
             else{
-                $page = 0;
+                $page = "0";
             }
-            if($page != 0){
+            if($page != "0"){
                 $direction = './'.$page.'.php';
                 echo "<h3 class='text-center'>Opcion Seleccionada: $direction</h3>";
                 include $direction;
