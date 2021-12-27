@@ -28,6 +28,7 @@
         </ul>
         <br>
         <hr>
+        <div class="container justify-content-center">
         <?php 
             if(isset($_GET['page'])){
                 $page = $_GET['page'];
@@ -37,13 +38,13 @@
             }
             if($page != "0"){
                 $direction = './'.$page.'.php';
-                echo "<h3 class='text-center'>Opcion Seleccionada: $direction</h3>";
                 include $direction;
             }
             else{
-                echo "<h3 class='text-center'>Selecciona una opcion $page</h3>";
+                echo "<h3 class='text-center'>Selecciona una opcion</h3>";
             }
         ?>
+        </div>
     </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
