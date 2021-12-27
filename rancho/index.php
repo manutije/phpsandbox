@@ -39,7 +39,7 @@
                 include "./$page.php";
             }
             else{
-                echo "<h3>Selecciona una opcion</h3>";
+                echo "<h3 class='text-center'>Selecciona una opcion $page</h3>";
             }
         ?>
     </div>
