@@ -1,3 +1,4 @@
+<h2>Tabla de Caballos</h2>
 <table class="table">
     <tr>
         <th>Nombre</th>
