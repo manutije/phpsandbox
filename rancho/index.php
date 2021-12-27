@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <h1 class="text-center">Administracion Rancho</h1>
-        <ul class="nav">
+        <ul class="nav justify-content-center">
             <li class="nav-item">
                 <a class="nav-link" href="#">Caballos</a>
             </li>
