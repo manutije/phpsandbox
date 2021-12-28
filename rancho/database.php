@@ -19,11 +19,11 @@ if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
         $caballo = [
-            'Name'=>$row["Name"],
-            'FirstName'=>$row["FirstName"],
-            'LastName'=>$row["LastName"],
-            'Color'=>$row["ColorName"]
-        ]
+            $row["Name"],
+            $row["FirstName"],
+            $row["LastName"],
+            $row["ColorName"]
+        ];
         $Caballos[]=$caballo;
     }
   } else {

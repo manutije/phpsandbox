@@ -9,7 +9,7 @@
         <th>Color</th>
     </tr>
     <?php foreach($Caballos as $value): ?>
-        <?php foreach($value as $key =>$caballo): ?>
+        <?php foreach($value as $caballo): ?>
             <tr>
                 <td><?php echo $caballo;?></td>
             </tr>
