@@ -21,12 +21,20 @@
 <form action="">
     <label for="hname">Horse name:</label>
     <input type="text" id="hname" name="hname">
-    <label for="colors">Horse color:</label>
-    <select id="colors" name="colors">
-        <?php include "./connections/getColors.php";?>
-    </select>
+
     <label for="owners">Horse Owner:</label>
     <select id="owners" name="owners">
         <?php include "./connections/getOwner.php";?>
+    </select>
+
+    <label for="sex">Horse sex:</label>
+    <select id="sex" name="sex">
+        <option value="M">Male</option>
+        <option value="F">Female</option>
+    </select>
+    
+    <label for="colors">Horse color:</label>
+    <select id="colors" name="colors">
+        <?php include "./connections/getColors.php";?>
     </select>
 </form>
