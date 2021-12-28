@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 }
 $Colores = [];
 
-$sql = "SELECT * FROM Colors;
+$sql = "SELECT * FROM Colors";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // output data of each row
