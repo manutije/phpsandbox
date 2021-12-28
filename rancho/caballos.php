@@ -18,6 +18,10 @@
     </table>    
 <?php endif; ?>
 
+<br>
+<br>
+<hr>
+<br>
 <div class="container justify-content-center">
     <h2>Agregar Caballos</h2>
     <form action="" class="row g-3">
@@ -51,3 +55,6 @@
         <button type="submit" class="btn btn-primary">Registrar</button>
     </form>
 </div>
+
+<br>
+<br>
