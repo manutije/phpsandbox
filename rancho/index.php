@@ -10,38 +10,11 @@
 <body>
     <div class="container">
         <h1 class="text-center">Administracion Rancho</h1>
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link" href="./index.php?page=caballos">Caballos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./index.php?page=vacasb">Vacas Bravas</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./index.php?page=torosb">Toros Bravos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./index.php?page=manso">Ganado Manso</a>
-            </li>
-        </ul>
+        <?php include './elements/navbar.php';?>
         <br>
         <hr>
         <div class="container justify-content-center">
-            <?php 
-                if(isset($_GET['page'])){
-                    $page = $_GET['page'];
-                }
-                else{
-                    $page = "0";
-                }
-                if($page != "0"){
-                    $direction = './'.$page.'.php';
-                    include $direction;
-                }
-                else{
-                    echo "<h3 class='text-center'>Selecciona una opcion</h3>";
-                }
-            ?>
+            <?php include './functions/addSubpage.php';?>
         </div>
     </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
