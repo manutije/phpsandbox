@@ -9,21 +9,28 @@
 
   // Check connection
   if ($conn->connect_error) {
+    echo "Connection failed";
     die("Connection failed: " . $conn->connect_error);
-  }
-  $Colores = [];
+  }else{
+    //Empty Array
+    $Colores = [];
 
-  $sql = "SELECT * FROM Colors";
-  $result = $conn->query($sql);
-  if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-      $Colores[]=$row["ID"] => $row["ColorName"];
-      echo "$row['ID']: $row['ColorName']";
+    //Query
+    $sql = "SELECT * FROM Colors";
+
+    //Execute Query
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+      // output data of each row
+      while($row = $result->fetch_assoc()) {
+        $Colores[]=$row["ID"] => $row["ColorName"];
+        echo "$row['ID']: $row['ColorName']";
+      }
+    } else {
+        $Colores[]="NoData";
     }
-  } else {
-      $Colores[]="NoData";
-  }
-  $conn->close();
-  print_r($Colores);
+    $conn->close();
+    print_r($Colores);
+}
 ?>
