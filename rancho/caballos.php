@@ -21,4 +21,5 @@
 <form action="">
     <label for="hname">Horse name:</label>
     <input type="text" id="hname" name="hname">
+    <?php include "./connections/getColors.php";?>
 </form>
