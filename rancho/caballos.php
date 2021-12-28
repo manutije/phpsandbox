@@ -9,11 +9,11 @@
         <th>Color</th>
     </tr>
     <?php foreach($Caballos as $value): ?>
-        <?php foreach($value as $caballo): ?>
-            <tr>
+        <tr>
+            <?php foreach($value as $caballo): ?>
                 <td><?php echo $caballo;?></td>
-            </tr>
-        <?php endforeach; ?>
+            <?php endforeach; ?>
+        </tr>
     <?php endforeach; ?>
     </table>    
 <?php endif; ?>
