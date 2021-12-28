@@ -4,8 +4,8 @@
     <table class="table">
     <tr>
         <th>Nombre</th>
-        <th>Dueno</th>
-        <th>Apellidos</th>
+        <th>Dueño</th>
+        <th>Sexo</th>
         <th>Color</th>
     </tr>
     <?php foreach($Caballos as $value): ?>
