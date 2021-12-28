@@ -8,6 +8,15 @@
     $sex = $_GET["sex"];
     $color = $_GET["color"]
 
+    $sql = "INSERT INTO Caballos (Name,Owner,Color,Sex)
+    VALUES (".
+    $name.",".
+    $owner.",".
+    $sex.",".
+    $color.")";
+    echo $sql;
+    
+    /*
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
     // Check connection
@@ -22,7 +31,7 @@
     $sex.",".
     $color.")";
     echo $sql;
-    /*
+    
     if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
     } else {
