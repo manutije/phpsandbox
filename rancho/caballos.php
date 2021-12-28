@@ -17,7 +17,8 @@
     <?php endforeach; ?>
     </table>    
 <?php endif; ?>
-<div class="container-md">
+
+<div class="container justify-content-center">
     <h2>Agregar Caballos</h2>
     <form action="" class="row g-3">
         <div class="col-md-3">
