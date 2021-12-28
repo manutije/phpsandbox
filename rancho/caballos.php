@@ -1,15 +1,19 @@
 <?php include 'database.php';?>
 <h2>Tabla de Caballos</h2>
-<table class="table">
+<?php if($Caballos): ?>
+    <table class="table">
     <tr>
         <th>Nombre</th>
-        <th>Owner</th>
+        <th>Dueno</th>
+        <th>Apellidos</th>
         <th>Color</th>
     </tr>
-    <tr>
-        <td>Rabanita</td>
-        <td>Manuel Tijerina</td>
-        <td>Cafe</td>
-    </tr>
-
-</table>
+    <?php foreach($Caballos as $value): ?>
+        <?php foreach($value as $key =>$caballo): ?>
+            <tr>
+                <td><?php echo $caballo;?></td>
+            </tr>
+        <?php endforeach; ?>
+    <?php endforeach; ?>
+    </table>    
+<?php endif; ?>
