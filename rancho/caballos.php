@@ -17,3 +17,8 @@
     <?php endforeach; ?>
     </table>    
 <?php endif; ?>
+<h2>Agregar Caballos</h2>
+<form action="">
+    <label for="hname">Horse name:</label>
+    <input type="text" id="hname" name="hname">
+</form>
