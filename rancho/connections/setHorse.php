@@ -3,22 +3,20 @@
     $username = "adminer";
     $password = "@Avanti2";
     $dbname = "Rancho";
-    /*
-    $name = $_GET["hname"];
+    $hname = $_GET["hname"];
     $owner = $_GET["owner"];
     $sex = $_GET["sex"];
     $color = $_GET["color"];
-    */
 
     /*
     $sql = "INSERT INTO Caballos (Name,Owner,Color,Sex)
     VALUES (".
-    $name.",".
+    $hname.",".
     $owner.",".
     $sex.",".
     $color.")";
     */
-    echo $_GET["hname"];
+    echo $hname;
 
     /*
     // Create connection
