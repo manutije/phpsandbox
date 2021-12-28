@@ -1,3 +1,4 @@
+<?php include 'database.php';?>
 <h2>Tabla de Caballos</h2>
 <table class="table">
     <tr>
