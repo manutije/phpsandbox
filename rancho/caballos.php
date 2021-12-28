@@ -25,7 +25,7 @@
     </div>
 
     <div class="col-md-3">
-        <label for="owners">Horse Owner:</label>
+        <label for="owners" class="form-label">Horse Owner:</label>
         <select id="owners" name="owners" class="form-select" aria-label="Default select example">
             <?php include "./connections/getOwner.php";?>
         </select>
