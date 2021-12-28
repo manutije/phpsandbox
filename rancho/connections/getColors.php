@@ -24,4 +24,5 @@ if ($result->num_rows > 0) {
     $Colores[]="NoData";
 }
 $conn->close();
+print_r($Colores);
 ?>
