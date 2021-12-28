@@ -18,7 +18,7 @@
     $sex.",".
     $color.")";
     */
-    echo "This Works";
+    print_r($_GET);
 
     /*
     // Create connection
