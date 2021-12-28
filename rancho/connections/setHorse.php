@@ -8,15 +8,13 @@
     $sex = $_GET["sex"];
     $color = $_GET["color"];
 
-    /*
     $sql = "INSERT INTO Caballos (Name,Owner,Color,Sex)
     VALUES (".
     $hname.",".
     $owner.",".
     $sex.",".
     $color.")";
-    */
-    echo $hname;
+    echo $sql;
 
     /*
     // Create connection
