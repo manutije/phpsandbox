@@ -9,10 +9,10 @@
     $color = $_GET["color"];
 
     $sql = "INSERT INTO Caballos (Name,Owner,Color,Sex)
-    VALUES (".
-    $hname.",".
-    $owner.",".
-    $sex.",".
+    VALUES ('".
+    $hname."',".
+    $owner.",'".
+    $sex."',".
     $color.")";
     echo $sql;
 
