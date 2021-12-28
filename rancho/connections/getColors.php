@@ -24,11 +24,10 @@ if ($result->num_rows > 0) {
     $Colores[]="NoData";
   }
   $conn->close();
-?>
-<label for="color">Choose a Color:</label>
-<select id="color" name="color">
-<?php foreach($Colores as $key => $value){
-   echo "<option value=$key>$value</option>";
+echo "<label for='color'>Choose a Color:</label>";
+echo "<select id='color' name='color'>";
+foreach($Colores as $key => $value)
+{
+  echo "<option value=$key>$value</option>";
 }
-?>
-</select>
+echo "</select>";
