@@ -17,7 +17,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-    echo "id: " . $row["ID"]. " - Color: " . $row["ColorName"]. "<br>";
+    echo "<option value=$row['ID']>$row['ColorName']</option>";
   }
 } else {
   echo "0 results";
