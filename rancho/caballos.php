@@ -25,4 +25,8 @@
     <select id="colors" name="colors">
         <?php include "./connections/getColors.php";?>
     </select>
+    <label for="owners">Horse Owner:</label>
+    <select id="owners" name="owners">
+        <?php include "./connections/getOwner.php";?>
+    </select>
 </form>
