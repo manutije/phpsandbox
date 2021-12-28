@@ -24,12 +24,4 @@ if ($result->num_rows > 0) {
     $Colores[]="NoData";
 }
 $conn->close();
-print_r($Colores);
-echo "<label for='color'>Choose a Color:</label>";
-echo "<select id='color' name='color'>";
-foreach($Colores as $key => $value)
-{
-  echo "<option value=$key>$value</option>";
-}
-echo "</select>";
 ?>
