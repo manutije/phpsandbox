@@ -1,14 +1,14 @@
 <div class="container justify-content-center">
     <h2>Agregar Caballos</h2>
-    <form action="" class="row g-3">
+    <form action="./connections/setHorse.php" class="row g-3">
         <div class="col-md-3">
             <label for="hname" class="form-label">Horse name:</label>
             <input type="text" id="hname" name="hname" class="form-control">
         </div>
 
         <div class="col-md-3">
-            <label for="owners" class="form-label">Horse Owner:</label>
-            <select id="owners" name="owners" class="form-select" aria-label="Default select example">
+            <label for="owner" class="form-label">Horse Owner:</label>
+            <select id="owner" name="owner" class="form-select" aria-label="Default select example">
                 <?php include "./connections/getOwner.php";?>
             </select>
         </div>
@@ -22,8 +22,8 @@
         </div>
 
         <div class="col-md-3">
-            <label for="colors" class="form-label">Horse color:</label>
-            <select id="colors" name="colors" class="form-select" aria-label="Default select example">
+            <label for="color" class="form-label">Horse color:</label>
+            <select id="color" name="color" class="form-select" aria-label="Default select example">
                 <?php include "./connections/getColors.php";?>
             </select>
         </div>
