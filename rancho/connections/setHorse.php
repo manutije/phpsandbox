@@ -18,7 +18,7 @@
     $sex.",".
     $color.")";
     */
-    print_r($_GET);
+    echo $_GET["hname"];
 
     /*
     // Create connection
