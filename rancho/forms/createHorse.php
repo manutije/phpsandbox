@@ -1,6 +1,6 @@
 <div class="container justify-content-center">
     <h2>Agregar Caballos</h2>
-    <form action="./connections/setHorse.php" class="row g-3">
+    <form action="../connections/setHorse.php" class="row g-3">
         <div class="col-md-3">
             <label for="hname" class="form-label">Horse name:</label>
             <input type="text" id="hname" name="hname" class="form-control">
