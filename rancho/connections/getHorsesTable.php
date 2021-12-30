@@ -23,7 +23,7 @@ if ($result->num_rows > 0) {
             $row["FirstName"].' '.$row["LastName"],
             $row["Sex"],
             $row["ColorName"],
-            '<a class="btn btn-warning" href="./connections/viewHorse.php?id='.$row["ID"].'">Complete View</a>'
+            '<a class="btn btn-warning" href="./pages/horse.php?id='.$row["ID"].'">Complete View</a>'
         ];
         $Caballos[]=$caballo;
     }
