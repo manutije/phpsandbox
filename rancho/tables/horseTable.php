@@ -7,7 +7,7 @@
         <th>Dueño</th>
         <th>Sexo</th>
         <th>Color</th>
-        <th>Edit</th>
+        <th>View</th>
     </tr>
     <?php foreach($Caballos as $value): ?>
         <tr>
