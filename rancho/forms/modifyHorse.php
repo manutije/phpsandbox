@@ -18,14 +18,14 @@
             <label for="sex" class="form-label">Horse sex:</label>
             <select id="sex" name="sex" class="form-select" aria-label="Default select example">
                 <?php
-                switch($row['Sex']){
+                switch($row["Sex"]){
                     case 'M':
-                        echo '<option value="M" selected>Male</option>';
-                        echo '<option value="F">Female</option>';
+                        echo "<option value='M' selected>Male</option>";
+                        echo "<option value='F'>Female</option>";
                         break;
                     case 'F':
-                        echo '<option value="M">Male</option>';
-                        echo '<option value="F" selected>Female</option>';
+                        echo "<option value='M'>Male</option>";
+                        echo "<option value='F' selected>Female</option>";
                         break;
                 }
                 ?>
