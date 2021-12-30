@@ -18,7 +18,7 @@ if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
     if($row["ColorName"]==$caballo["ColorName"]){
-      echo "<option value='".$row["ID"]." selected'>".$row["ColorName"]."</option>";
+      echo "<option value='".$row["ID"]."' selected>".$row["ColorName"]."</option>";
     }else{
       echo "<option value='".$row["ID"]."'>".$row["ColorName"]."</option>";
     }
