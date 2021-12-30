@@ -8,9 +8,9 @@
     $sex = $_GET["sex"];
     $color = $_GET["color"];
     //$id = $caballo["ID"];
-    //echo $id;
+    echo $hname;
 
-
+    /*
     $sql = "UPDATE Caballos (Name,Owner,Sex,Color)
     VALUES ('".
     $hname."',".
@@ -18,7 +18,6 @@
     $sex."',"
     $color.")WHERE ID = 9";
     echo $sql;
-    /*
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
     // Check connection
