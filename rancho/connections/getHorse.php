@@ -18,6 +18,8 @@ echo $result->num_rows;
 if ($result->num_rows > 0) {
   // output data of each row
   $row = $result->fetch_assoc();
+  echo $row["Name"];
+  /*
   $caballo = [
       $row["Name"],
       $row["FirstName"].' '.$row["LastName"],
@@ -25,9 +27,9 @@ if ($result->num_rows > 0) {
       $row["ColorName"],
       '<a class="btn btn-warning" href="./pages/horse.php?id='.$row["ID"].'">Complete View</a>'
   ];
+  */
 } else {
   $caballo=["No connection","No connection","No connection","No connection"];
 }
-print_r $caballo;
 $conn->close();
 ?>
