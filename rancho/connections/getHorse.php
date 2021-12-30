@@ -14,6 +14,8 @@ if ($conn->connect_error) {
 $caballo ="No working";
 $sql = "SELECT Caballos.ID, Name,ColorName,FirstName, LastName,Sex from Caballos INNER JOIN Colors on Colors.ID = Caballos.Color INNER JOIN Owners on Owners.ID = Caballos.Owner WHERE Caballos.ID = 2";
 $result = $conn->query($sql);
+echo $result->num_rows;
+/*
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
@@ -29,5 +31,6 @@ if ($result->num_rows > 0) {
   $caballo="NoData";
 }
 print_r $caballo;
+*/
 $conn->close();
 ?>
