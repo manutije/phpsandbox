@@ -1,19 +1,19 @@
 <?php 
 include '../connections/getHorse.php';
-$hsex =$row['Sex'];
+$hsex =$caballo['Sex'];
 ?>
 <div class="container justify-content-center">
     <h2>Modificar Caballo</h2>
     <form action="./connections/setHorse.php" class="row g-3">
         <div class="col-md-3">
             <label for="hname" class="form-label">Horse name:</label>
-            <input type="text" id="hname" name="hname" value='<?php echo $row["Name"];?>' class="form-control">
+            <input type="text" id="hname" name="hname" value='<?php echo $caballo["Name"];?>' class="form-control">
         </div>
 
         <div class="col-md-3">
             <label for="owner" class="form-label">Horse Owner:</label>
             <select id="owner" name="owner" class="form-select" aria-label="Default select example">
-                <?php include "../connections/getOwner.php";?>
+                <?php include "../connections/modifiers/getSpecOwner.php";?>
             </select>
         </div>
 
