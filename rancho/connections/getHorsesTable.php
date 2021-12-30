@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 }
 $Caballos = [];
 
-$sql = "SELECT Name,ColorName,FirstName, LastName,Sex from Caballos INNER JOIN Colors on Colors.ID = Caballos.Color INNER JOIN Owners on Owners.ID = Caballos.Owner";
+$sql = "SELECT Caballos.ID, Name,ColorName,FirstName, LastName,Sex from Caballos INNER JOIN Colors on Colors.ID = Caballos.Color INNER JOIN Owners on Owners.ID = Caballos.Owner";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
@@ -22,7 +22,8 @@ if ($result->num_rows > 0) {
             $row["Name"],
             $row["FirstName"].' '.$row["LastName"],
             $row["Sex"],
-            $row["ColorName"]
+            $row["ColorName"],
+            '<a href="./viewHorse.php?id='.$row["ID"].'">View Horse</a>'
         ];
         $Caballos[]=$caballo;
     }
