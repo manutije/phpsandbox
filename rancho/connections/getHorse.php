@@ -4,7 +4,6 @@ $username = "adminer";
 $password = "@Avanti2";
 $dbname = "Rancho";
 $id=$_GET["id"];
-
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
