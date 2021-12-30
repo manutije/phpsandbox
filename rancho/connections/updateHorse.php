@@ -8,7 +8,7 @@
     $sex = $_GET["sex"];
     $color = $_GET["color"];
     $id = $caballo["ID"];
-    echo $id;
+    print_r($caballo);
 
     /*
     $sql = "UPDATE Caballos (Name,Owner,Sex,Color)
