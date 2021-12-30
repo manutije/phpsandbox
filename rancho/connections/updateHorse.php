@@ -11,15 +11,14 @@
     include '../Temp/ID.php';
     $id = $_SESSION['updateID'];
     echo $id;
-
-    /*
     $sql = "UPDATE Caballos (Name,Owner,Sex,Color)
     VALUES ('".
     $hname."',".
     $owner.",'".
     $sex."',"
-    $color.")WHERE ID = 9";
+    $color.")WHERE ID =".$id;
     echo $sql;
+    /*
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
     // Check connection
