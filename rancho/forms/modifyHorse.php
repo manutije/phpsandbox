@@ -21,13 +21,13 @@ echo $row['Sex'];
             <label for="sex" class="form-label">Horse sex:</label>
             <select id="sex" name="sex" class="form-select" aria-label="Default select example">
                 <?php
-                $value = "F";
+                $value = $row["Sex"];
                 switch ($value){
-                    case 'M':
+                    case M:
                         echo '<option value="M" selected>Male</option>';
                         echo '<option value="F">Female</option>';
                         break;
-                    case 'F':
+                    case F:
                         echo '<option value="M">Male</option>';
                         echo '<option value="F" selected>Female</option>';
                         break;
