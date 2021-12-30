@@ -1,6 +1,8 @@
 <?php 
 include '../connections/getHorse.php';
+include '../Temp/ID.php';
 $hsex =$caballo['Sex'];
+$idUpdate =$caballo['ID'];
 ?>
 <div class="container justify-content-center">
     <h2>Modificar Caballo</h2>

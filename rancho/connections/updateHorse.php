@@ -7,8 +7,9 @@
     $owner = $_GET["owner"];
     $sex = $_GET["sex"];
     $color = $_GET["color"];
-    //$id = $caballo["ID"];
-    //echo $id;
+    include '../Temp/ID.php';
+    $id = $idUpdate;
+    echo $id;
 
     /*
     $sql = "UPDATE Caballos (Name,Owner,Sex,Color)
