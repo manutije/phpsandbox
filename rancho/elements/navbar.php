@@ -1,4 +1,4 @@
-<ul class="nav justify-content-center">
+<ul class="btn-group justify-content-center">
     <li>
         <a class="btn btn-info" href="./index.php?page=caballos">Caballos</a>
     </li>
