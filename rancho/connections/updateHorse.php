@@ -15,7 +15,7 @@
     Name = '".$hname."',
     Owner =".$owner.",
     Sex = '".$sex."'.
-    Color= ".$color."
+    Color= ".$color"
     WHERE ID =".$id;
 
     // Create connection
