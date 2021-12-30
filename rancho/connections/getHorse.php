@@ -22,4 +22,7 @@ if ($result->num_rows > 0) {
   $caballo=["No connection","No connection","No connection","No connection"];
 }
 $conn->close();
+$myfile = fopen("../Temp_Vars/updateId", "w");
+fwrite($myfile, $caballo["ID"]);
+fclose($myfile);
 ?>

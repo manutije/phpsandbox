@@ -4,10 +4,10 @@ $hsex =$caballo['Sex'];
 ?>
 <div class="container justify-content-center">
     <h2>Modificar Caballo</h2>
-    <form action="../connections/updateHorse.php?id=<?php echo $caballo["ID"];?>" class="row g-3">
+    <form action="../connections/updateHorse.php" class="row g-3">
         <div class="col-md-3">
             <label for="hname" class="form-label">Horse name:</label>
-            <input type="text" id="hname" name="hname" value='<?php echo $caballo["ID"];?>' class="form-control">
+            <input type="text" id="hname" name="hname" value='<?php echo $caballo["Name"];?>' class="form-control">
         </div>
 
         <div class="col-md-3">
