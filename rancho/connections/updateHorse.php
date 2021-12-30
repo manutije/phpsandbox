@@ -1,4 +1,5 @@
 <?php
+    include '../connections/getHorse.php';
     $servername = "localhost";
     $username = "adminer";
     $password = "@Avanti2";
@@ -7,7 +8,7 @@
     $owner = $_GET["owner"];
     $sex = $_GET["sex"];
     $color = $_GET["color"];
-    $id = $_GET["id"];
+    $id = $caballo["ID"];
     echo $id;;
 
     /*

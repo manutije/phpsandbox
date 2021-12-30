@@ -18,9 +18,6 @@ if ($result->num_rows > 0) {
   // output data of each row
   $row = $result->fetch_assoc();
   $caballo = $row;
-  $myfile = fopen("../Temp_Vars/updateId.txt", "w");
-  fwrite($myfile, $caballo);
-  fclose($myfile);
 } else {
   $caballo=["No connection","No connection","No connection","No connection"];
 }
