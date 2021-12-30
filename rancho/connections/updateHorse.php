@@ -8,7 +8,6 @@
     $owner = $_GET["owner"];
     $sex = $_GET["sex"];
     $color = $_GET["color"];
-    include '../Temp/ID.php';
     $id = $_SESSION['updateID'];
 
     $sql = "UPDATE Caballos SET
@@ -31,4 +30,6 @@
     echo "Error: " . $sql . "<br>" . $conn->error;
     }
     $conn->close();
+    header("Location: ../");
+    exit();
 ?>
