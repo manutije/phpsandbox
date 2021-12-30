@@ -19,7 +19,8 @@
             <select id="sex" name="sex" class="form-select" aria-label="Default select example">
                 <?php
                 $value = $row["Sex"];
-                switch($value){
+                echo $value;
+                switch ($value){
                     case 'M':
                         echo '<option value="M" selected>Male</option>';
                         echo '<option value="F">Female</option>';
