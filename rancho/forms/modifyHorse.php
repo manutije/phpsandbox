@@ -36,7 +36,7 @@ $hsex =$caballo['Sex'];
         <div class="col-md-3">
             <label for="color" class="form-label">Horse color:</label>
             <select id="color" name="color" class="form-select" aria-label="Default select example">
-                <?php include "../connections/getColors.php";?>
+                <?php include "../connections/modifiers/getSpecColors.php";?>
             </select>
         </div>
 
