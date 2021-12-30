@@ -10,15 +10,14 @@
     $color = $_GET["color"];
     include '../Temp/ID.php';
     $id = $_SESSION['updateID'];
-    echo $id;
+
     $sql = "UPDATE Caballos SET
     Name = '".$hname."',
     Owner =".$owner.",
     Sex = '".$sex."'.
     Color= ".$color."
     WHERE ID =".$id;
-    echo $sql;
-    /*
+
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
     // Check connection
@@ -27,11 +26,9 @@
     }
     
     if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
+    echo "New record updated successfully";
     } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
     }
-
     $conn->close();
-    */
 ?>
