@@ -22,6 +22,6 @@ if ($result->num_rows > 0) {
   $caballo=["No connection","No connection","No connection","No connection"];
 }
 echo "Run <br>";
-echo $caballo;
+print_r($caballo);
 $conn->close();
 ?>
