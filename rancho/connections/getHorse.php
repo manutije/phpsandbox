@@ -16,7 +16,7 @@ $result = $conn->query($sql);
 echo $result->num_rows;
 if ($result->num_rows > 0) {
   // output data of each row
-  $row = $result->fetch_assoc();
+  //$row = $result->fetch_assoc();
   echo "works here";
   //print_r($row);
   //$caballo = array($row["Name"], $row["FirstName"].' '.$row["LastName"], $row["Sex"], $row["ColorName"]);
