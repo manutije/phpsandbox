@@ -18,7 +18,7 @@
             <label for="sex" class="form-label">Horse sex:</label>
             <select id="sex" name="sex" class="form-select" aria-label="Default select example">
                 <?php
-                $value = $row["Sex"];
+                $value = "F";
                 echo $value;
                 switch ($value){
                     case 'M':
