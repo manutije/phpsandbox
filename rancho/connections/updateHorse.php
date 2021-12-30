@@ -1,4 +1,5 @@
 <?php
+    include('./getHorse.php');
     $servername = "localhost";
     $username = "adminer";
     $password = "@Avanti2";
