@@ -1,6 +1,6 @@
 <ul class="nav justify-content-center">
     <li class="nav-item">
-        <a class="btn btn-info" href="./index.php?page=caballos">Caballos</a>
+        <a class="nav nav-link btn btn-info" href="./index.php?page=caballos">Caballos</a>
     </li>
     <li class="nav-item">
         <a class="btn btn-info" href="./index.php?page=vacasb">Vacas Bravas</a>
