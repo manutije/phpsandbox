@@ -8,7 +8,7 @@
     $sex = $_GET["sex"];
     $color = $_GET["color"];
     include '../Temp/ID.php';
-    $id = $idUpdate;
+    $id = $_SESSION['updateID'];
     echo $id;
 
     /*

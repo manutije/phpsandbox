@@ -18,6 +18,7 @@ if ($result->num_rows > 0) {
   // output data of each row
   $row = $result->fetch_assoc();
   $caballo = $row;
+  $_SESSION['updateID'] = $row['ID'];
 } else {
   $caballo=["No connection","No connection","No connection","No connection"];
 }

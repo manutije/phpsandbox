@@ -1,3 +1,0 @@
-<?php
-$idUpdate = 0;
-?>
