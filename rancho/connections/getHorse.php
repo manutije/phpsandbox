@@ -18,7 +18,7 @@ if ($result->num_rows > 0) {
   // output data of each row
   $row = $result->fetch_assoc();
   $caballo = $row;
-  $myfile = fopen("./Temp/ID.txt", "w") or die("Unable to open file!");
+  $myfile = fopen("../Temp/ID.txt", "w") or die("Unable to open file!");
   $txt =$caballo["ID"];
   fwrite($myfile, $txt);
   fclose($myfile);
