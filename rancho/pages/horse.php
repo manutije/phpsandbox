@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <h1 class="text-center">Informacion de caballo</h1>
-        <?php include './elements/navbar.php';?>
+        <?php include '../elements/navbar2.php';?>
         <br>
         <hr>
         <div class="container justify-content-center">
