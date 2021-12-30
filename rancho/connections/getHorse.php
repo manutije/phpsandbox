@@ -17,14 +17,14 @@ echo $result->num_rows;
 if ($result->num_rows > 0) {
   // output data of each row
   $row = $result->fetch_assoc();
-  echo $row["Name"];
-  
+
   $caballo = array(
-      $row["Name"],
-      $row["FirstName"].' '.$row["LastName"],
-      $row["Sex"],
-      $row["ColorName"]
+    $row["Name"],
+    $row["FirstName"].' '.$row["LastName"],
+    $row["Sex"],
+    $row["ColorName"]
   );
+  echo $caballo;
   */
 } else {
   $caballo=["No connection","No connection","No connection","No connection"];
