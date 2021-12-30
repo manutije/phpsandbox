@@ -1,4 +1,7 @@
-<?php include '../connections/getHorse.php';?>
+<?php 
+include '../connections/getHorse.php';
+echo $row['Sex'];
+?>
 <div class="container justify-content-center">
     <h2>Modificar Caballo</h2>
     <form action="./connections/setHorse.php" class="row g-3">
@@ -18,7 +21,7 @@
             <label for="sex" class="form-label">Horse sex:</label>
             <select id="sex" name="sex" class="form-select" aria-label="Default select example">
                 <?php
-                $value = $row['sex'];
+                $value = "F";
                 switch ($value){
                     case 'M':
                         echo '<option value="M" selected>Male</option>';
