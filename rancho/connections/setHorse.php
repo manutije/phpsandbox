@@ -29,4 +29,6 @@
     }
 
     $conn->close();
+    header("Location: ../");
+    exit();
 ?>
