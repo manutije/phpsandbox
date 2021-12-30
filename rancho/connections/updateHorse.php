@@ -14,7 +14,7 @@
     $sql = "UPDATE Caballos SET
     Name = '".$hname."',
     Owner =".$owner.",
-    Sex = '".$sex."'
+    Sex = '".$sex."',
     Color= ".$color."
     WHERE ID =".$id;
 
