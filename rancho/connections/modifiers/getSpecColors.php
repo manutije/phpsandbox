@@ -11,16 +11,16 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT * FROM Owners";
+$sql = "SELECT * FROM Colors";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-    if($row["FirstName"]." ".$row["LastName"] == $caballo["FirstName"]." ".$caballo["LastName"]){
-      echo "<option value='".$row["ID"]."' selected>".$row["FirstName"]." ".$row["LastName"]."</option>";
+    if($row["ColorName"]==$caballo["ColorName"]){
+      echo "<option value='".$row["ID"]." selected'>".$row["ColorName"]."</option>";
     }else{
-      echo "<option value='".$row["ID"]."'>".$row["FirstName"]." ".$row["LastName"]."</option>";
+      echo "<option value='".$row["ID"]."'>".$row["ColorName"]."</option>";
     }
   }
 } else {
