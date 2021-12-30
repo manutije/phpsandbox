@@ -11,12 +11,12 @@
     include '../Temp/ID.php';
     $id = $_SESSION['updateID'];
     echo $id;
-    $sql = "UPDATE Caballos (Name,Owner,Sex,Color)
-    VALUES ('".
-    $hname."',".
-    $owner.",'".
-    $sex."',"
-    $color.")WHERE ID =".$id;
+    $sql = "UPDATE Caballos SET
+    Name = '".$hname."',
+    Owner =".$owner.",
+    Sex = '".$sex."'.
+    Color= ".$color."
+    WHERE ID =".$id;
     echo $sql;
     /*
     // Create connection
