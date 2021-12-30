@@ -7,14 +7,14 @@
     $owner = $_GET["owner"];
     $sex = $_GET["sex"];
     $color = $_GET["color"];
-    $id = $caballo["ID"];
+    //$id = $caballo["ID"];
 
     $sql = "UPDATE Caballos (Name,Owner,Sex,Color)
     VALUES ('".
     $hname."',".
     $owner.",'".
     $sex."',"
-    $color.")WHERE ID = "$id;
+    $color.")WHERE ID = 9";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
