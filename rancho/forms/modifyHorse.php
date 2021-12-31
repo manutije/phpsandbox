@@ -42,9 +42,4 @@ $hsex =$caballo['Sex'];
 
         <button type="submit" class="btn btn-primary">Modificar</button>
     </form>
-    <br>
-    <hr>
-    <form action="../connections/deleteHorse.php?id=<?php echo $caballo["ID"];?>">
-        <button type="submit" class="btn btn-danger">Eliminar Caballo</button>
-    </form>
 </div>
