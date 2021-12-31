@@ -15,6 +15,7 @@ if ($conn->connect_error) {
 // sql to delete a record
 $sql = "DELETE FROM Caballos WHERE id=".$id;
 
+echo $sql;
 if ($conn->query($sql) === TRUE) {
   echo "Record deleted successfully";
 } else {
